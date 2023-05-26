@@ -16,14 +16,14 @@ export default function Projects({}: Props) {
         },
         {
             name: 2,
-            img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            description:"PROJECT 2", 
-        },
-        {
-            name: 3,
             img: foodtalk,
             description:"Collaborative group project during TTP winter 2022 web development boot camp cohort using Django where we created a site that showcases different food and recipes.", 
             link: "https://github.com/shmg1679/food-talk",
+        },
+        {
+            name: 3,
+            img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            description:"temp", 
         },
     ];
 
