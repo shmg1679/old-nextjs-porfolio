@@ -12,7 +12,7 @@ import Head from 'next/head'
 const Home: NextPage = ()=> {
   return (
     // the snap here is the parent
-    <div className='bg-[rgb(20,20,20)] text-white h-screen overflow-scroll z-0'>
+    <div className='bg-[rgb(20,20,20)] text-white h-screen overflow-scroll z-0 snap-none'>
       <Head>
         <title>Shiming's Portfolio</title>
       </Head>
