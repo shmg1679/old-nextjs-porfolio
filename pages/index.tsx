@@ -12,7 +12,7 @@ import Head from 'next/head'
 const Home: NextPage = ()=> {
   return (
     // the snap here is the parent
-    <div className='bg-[rgb(20,20,20)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'>
+    <div className='bg-[rgb(20,20,20)] text-white h-screen overflow-scroll z-0'>
       <Head>
         <title>Shiming's Portfolio</title>
       </Head>
@@ -23,29 +23,29 @@ const Home: NextPage = ()=> {
 
       {/* Hero */}
       {/* the snap here is the child */}
-      <section id='hero' className='snap-start'>
+      <section id='hero' className=''>
         <Hero/>
       </section>
       
 
       {/* About */}
-      <section id='about' className='snap-center'>
+      <section id='about' className=''>
         <About/>
       </section>
 
       {/* Experience */}
-      <section id='experience' className='snap-center'>
+      <section id='experience' className=''>
         <WorkExperience/>
       </section>
 
       {/* Skills */}
-      <section id='skills' className='snap-start'>
+      <section id='skills' className=''>
         <Skills/>
       </section>
 
       {/* Projects */}
       {/* fix this */}
-      <section id='projects' className='snap-center'>
+      <section id='projects' className=''>
         <Projects/>
       </section>
 
@@ -55,7 +55,7 @@ const Home: NextPage = ()=> {
 
 
       {/* Contact me */}
-      <section id='contact' className='snap-start'>
+      <section id='contact' className=''>
         <ContactMe/>
       </section>
     </div>
