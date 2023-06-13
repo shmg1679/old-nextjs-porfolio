@@ -3,6 +3,7 @@ import Image from 'next/image'
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
 import foodtalk from '../images/foodtalk.jpg'
 import weatherapp from '../images/weatherapp.jpg'
+import ttpProjects from '../images/TTPcourseWork.jpg'
 
 type Props = {}
 
@@ -22,8 +23,9 @@ export default function Projects({}: Props) {
         },
         {
             name: 3,
-            img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            description:"place holder", 
+            img: ttpProjects,
+            description:"A list of some frontend projects I've done during the TTP program.",
+            link: "https://github.com/shmg1679/TTPclasswork-and-others/tree/main/frontend_projects" 
         },
     ];
 
