@@ -35,7 +35,7 @@ export default function About({}: Props) {
 
           <div className='space-y-10 px-0 md:px-10'>
             <div className="flex space-x-4">
-              <a href="https://drive.google.com/file/d/13BFEhJcjELgZJHNzeBprwfOtzN2-AI5P/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.google.com/document/d/1uniNLeVowC7nTjSUWEVeW06y0jDsQetvWwq5YYTELYY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <button className="w-40 h-16 border-3 border-blue-500 rounded-full transition-all duration-300 cursor-pointer bg-gray-700 text-lg font-semibold text-white font-montserrat hover:bg-blue-500 hover:text-white hover:text-xl">
                   Resume
                 </button>
