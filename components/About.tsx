@@ -35,7 +35,7 @@ export default function About({}: Props) {
 
           <div className='space-y-10 px-0 md:px-10'>
             <div className="flex space-x-4">
-              <a href="https://docs.google.com/document/d/1uniNLeVowC7nTjSUWEVeW06y0jDsQetvWwq5YYTELYY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1tZgJEabzpN6mPz3niBAYTvew7DcFvCIX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <button className="w-40 h-16 border-3 border-blue-500 rounded-full transition-all duration-300 cursor-pointer bg-gray-700 text-lg font-semibold text-white font-montserrat hover:bg-blue-500 hover:text-white hover:text-xl">
                   Resume
                 </button>
@@ -57,8 +57,11 @@ export default function About({}: Props) {
             <h3 className='text-4xl font-semibold'>
               <span className='underline decoration-blue-400'>Here're some background about me</span></h3>
             <p className='text-base'>
-              Hello! My name is Shiming Huang. I graduated from John Jay College with a Bachelor's in Computer Science and Information Security. Initially I pursued a degree in science and my major is computer science because I had always been fascinated with coding as a child and later had an interest in cyber security which is why I transferred over to John Jay which offered these courses. <br /><br />
-              Later I was given an opportunity to join the CUNY Tech Talent Pipeline (TTP) program which offered a one month long boot camp in web development and later helped me get an internship in that field as a software engineer. After that, I have shifted my focus towards software development as I found creating software to be quite fulfilling. But that does not mean my interest in cyber security has decrease as I'm always open to learning more about both fields.
+              Hello! I'm Shiming. I hold a Bachelor of Science degree in Computer Science and Information Security from John Jay College. My early fascination with coding inspired me to pursue this field, and I made the decision to transfer to John Jay College due to its strong emphasis on cybersecurity courses. <br/><br/>
+
+              Subsequently, I seized an invaluable opportunity to participate in the CUNY Tech Talent Pipeline (TTP) program. This program included an intensive one-month web development boot camp, leading to a rewarding internship as a software engineer. This experience shifted my professional focus towards software development, a field I found to be profoundly fulfilling.<br/><br/>
+
+              Nonetheless, it's worth noting that my passion for cybersecurity remains unwavering. I actively continue to explore and expand my knowledge in both software development and cybersecurity, underscoring my ongoing interest in these fields.
             </p>
           </div>
     </motion.div>
