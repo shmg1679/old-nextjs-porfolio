@@ -1,6 +1,4 @@
-# Portfolio site
-
-Still Work in progress
+# Old Portfolio site
 
 # notes
 
